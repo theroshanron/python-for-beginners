@@ -22,3 +22,9 @@ print(z)
 
 k = 10 + 3 * 2 ** 3
 print(k)
+
+#parenthesis have more priority than exponential, multiplication and addition
+
+p = (2+3)*10-3
+
+print(p)
