@@ -19,7 +19,7 @@ while True:
         if not started:
             print("Car is already stopped")
         else:
-            started:False
+            started=False
             print("Car stopped.. !")
     elif command  == "help":
         print(""" 
