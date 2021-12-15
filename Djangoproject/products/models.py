@@ -9,3 +9,9 @@ class Product(models.Model):
     image_url = models.CharField(max_length=2082)
     
     
+class Discount(models.Model):
+    code = models.CharField(max_length=50)
+    description = models.CharField(max_length= 255)
+    Discount = models.FloatField()
+    
+    
