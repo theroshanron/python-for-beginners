@@ -29,6 +29,7 @@ def  process(filename):
     chart = BarChart()
     chart.add_data(values)
     sheet.add_chart(chart, 'e2')
+    
     wb.save(filename)
 
 process("Python_test.xlsx")
