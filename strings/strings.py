@@ -20,3 +20,11 @@ print(course[:4])
 #\n new line
 
 
+first = "Roshan"
+last = "Chaudahry"
+
+full = first + " " + last # concatenation
+full_formatted = f"{len(first)} {last}" #formatted text
+
+print(full)
+print(full_formatted)
