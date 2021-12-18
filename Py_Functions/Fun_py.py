@@ -8,3 +8,15 @@ def greet(first_name,last_name):
 
 greet("Roshan","Chaudhary")  
 greet("Shivani","Rana")    #Requires argument eual as parameters   
+
+#perform a task functions
+#return the value
+print(round(2.7))
+
+def get_greeting(name):
+    return f"Hi {name}"
+
+x =get_greeting("Roh")
+print(x)
+print(get_greeting("Roh"))
+
