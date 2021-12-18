@@ -39,4 +39,16 @@ print(l)
 
 #optional parameter comes after required parameter
 
-#args, wait what?
+# *args, wait what?
+
+def multiply(*numbers): #accept all arguments and gives a tuples
+    print(numbers)
+    total = 1
+    for i in numbers:
+        print(i)
+        total *= i
+    return total
+
+
+print(multiply(2,3,4,5))
+
