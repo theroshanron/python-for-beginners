@@ -6,4 +6,5 @@ def greet(first_name,last_name):
     print("Welcome")
 
 
-greet("Roshan","Chaudhary")    
+greet("Roshan","Chaudhary")  
+greet("Shivani","Rana")    #Requires argument eual as parameters   
