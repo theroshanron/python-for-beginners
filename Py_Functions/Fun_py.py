@@ -1,6 +1,9 @@
 #how to write own functions
 #To reduce the lines of code in a single file so that it's easier to maintain and reusable
 
+from types import MemberDescriptorType
+
+
 def greet(first_name,last_name):
     print(f"Aww! Hello {first_name} {last_name}")
     print("Welcome")
@@ -60,5 +63,22 @@ def save_user(**user): # Multiple key value pair is accepted
     
     
 save_user(id=1,first_name = "Roshan", last_name = "Chaudahry") #Will give a dictionary
+
+message = "c" #Global variable and accessible everywhere and stays in the memory for a longer period of time
+#Scope
+def greet(name):
+    global message
+    message ="a"  #knows as local variable and exists only in this function
+    
+    
+def greet2(name):
+    message ="b" 
+    
+"""print(message) #message is not defined """
+
+print(greet("Roshan")) #returns none
+z=greet("Mohan")
+print(message) #Will get global variable
+
 
 
