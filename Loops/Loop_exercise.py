@@ -42,3 +42,10 @@ for z in [3,4,5]:
 shopping_cart = ['colgate','potato','soap']
 for n in shopping_cart:
     print(n)
+    
+count_even = 0
+for i in range(10):
+    if i%2 == 0:
+        print(i)
+        count_even += 1
+print(f'We have {count_even} even numbers!')
