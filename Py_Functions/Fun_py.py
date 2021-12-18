@@ -20,3 +20,11 @@ x =get_greeting("Roh")
 print(x)
 print(get_greeting("Roh"))
 
+
+#Keyword arguments
+
+def increment(number, by):
+    return number + by
+
+r = increment(7,by=2) 
+print(r)
