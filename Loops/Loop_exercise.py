@@ -37,6 +37,14 @@ for y in range(4):
 for z in [3,4,5]:
     print(z)
     
+    
+#loop over the list
+letters = ["a","b","c","d"]
+items = [0,"A"]
+for index,p in enumerate(letters): #enumerate gives tuple and index
+    print(index,p)
+    
+    
 #strings, list and range are iterable
 
 shopping_cart = ['colgate','potato','soap']
