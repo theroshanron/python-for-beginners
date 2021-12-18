@@ -52,3 +52,13 @@ def multiply(*numbers): #accept all arguments and gives a tuples
 
 print(multiply(2,3,4,5))
 
+# **arg
+
+def save_user(**user): # Multiple key value pair is accepted
+    print(user)
+    print(user["last_name"])
+    
+    
+save_user(id=1,first_name = "Roshan", last_name = "Chaudahry") #Will give a dictionary
+
+
