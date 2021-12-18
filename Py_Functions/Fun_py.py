@@ -28,3 +28,15 @@ def increment(number, by):
 
 r = increment(7,by=2) 
 print(r)
+
+#Default Arguments
+
+def increment(number, by=3):
+    return number + by
+
+l = increment(7,5) 
+print(l)
+
+#optional parameter comes after required parameter
+
+#args, wait what?
